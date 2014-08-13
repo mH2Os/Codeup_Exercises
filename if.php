@@ -26,12 +26,12 @@
 
  if ($b == $c) {
      // output the appropriate result
-     echo "$b is compared $c\n";
+     echo "$b is equal to $c\n";
  }
 
  if ($b === $c) {
      // output the appropriate result
-     echo "$b is identical to $c\n";
+     echo "$b is  $c\n";
  }
 
  // output the appropriate result
@@ -40,7 +40,7 @@
  }
 
  // output the appropriate result
- if ($b !=== $c) {
+ if ($b !== $c) {
      echo "$b is not identical to $c\n";
  }
 
