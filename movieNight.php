@@ -2,7 +2,7 @@
 
 $movie = 'Jurassic Park';
 
-$age = 10;
+$age = ;
 
 $has_a_parent = false;
 
@@ -15,6 +15,22 @@ if ($age > 18 || ($has_a_parent && $age > 13) ) {
 
 		}
 
-
 		echo "You can watch $movie\n";
 }
+
+if($age < 18) {
+	echo "You can't watch $movie\n";
+}
+
+if($age < 18) {
+	echo "You can't watch $movie\n";
+} else {
+	echo "You can watch $movie\n";
+}
+
+if ($age >= 18) {
+	echo "You can watch $movie\n";
+} elseif ($age >= 13) {
+	echo "Maybe you should try the avengers\n";
+}
+
